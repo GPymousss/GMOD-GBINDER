@@ -7,7 +7,7 @@ hook.Add("PlayerButtonDown", "Exemple", function(ply, button)
 	local calcViewKeyCode = GetConVar("g_key_calcview"):GetInt()
 
 	if calcViewKeyCode == button then
-
+		-- votre code
 	end
 end)
 
